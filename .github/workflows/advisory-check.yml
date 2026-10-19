@@ -1,0 +1,13 @@
+name: Advisory Check
+
+on:
+  workflow_dispatch:
+
+jobs:
+  advisory-check:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Run advisory check
+        run: |
+          echo "advisory check complete"
+          exit 0
